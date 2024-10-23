@@ -50,6 +50,8 @@ header{
     display: flex;
     align-items: center;
 
+    color: white;
+
 
 }
 
@@ -61,13 +63,13 @@ header{
     justify-content: space-between;
     align-items: center;
    
-    background-color: rgb(167, 104, 226);
+    
 }
 
 .btn_cabecario{
     width: 30%;
     height: 80%;
 
-    background-color: rgb(121, 51, 187);
+    background-color: #A8308B;
 }
 
