@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
 @import url(./header.css);
 @import url(./section.css);
 @import url(./footer.css);
@@ -7,4 +9,11 @@ body{
     height: 100vh;
     margin: 0;
     padding: 0;
+
+    background-color: white;
 }
+/*   vermelho: #C11B26; 
+roxo claro: 503F90; 
+roxo forte: 290738;
+branco: F5F5F5;
+*/

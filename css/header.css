@@ -6,7 +6,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0 5%;
-    background-color: rgb(167, 104, 226);
+
 }
 
 #logo{
@@ -18,9 +18,9 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0 5%;
-    background-color: rgb(167, 104, 226);
+    
 
-    background-color: rgb(121, 51, 187);
+  
 
 
 }
@@ -34,7 +34,9 @@ header{
 #icone_logo{
     width: 4vw;
     height: 4vw;
-    background-color: white;
+    background-image: url(./../assets/img_principal2.png);
+    background-size: contain;
+    background-position: center;
     border-radius: 50%;
     margin-right: 3vw;
 }
@@ -42,9 +44,13 @@ header{
 #profissao{
     width: 80%;
     height: 80%;
+    font-family:monospace;
+    font-size: 0.65;
+
+    display: flex;
+    align-items: center;
 
 
-    background-color: rgb(195, 161, 226);
 }
 
 #btns_cabecario{
