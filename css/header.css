@@ -94,3 +94,62 @@ button.btn:hover, button.btn:focus {
 
     background-color: #FC9D10;
 }
+
+@media (max-width: 480px) {
+    /* Aplica os estilos a todos os elementos dentro desse bloco somente em telas com largura máxima de 480px */
+    
+    html, body {
+        overflow: hidden; /* Impede a rolagem na tela para baixo ou para os lados */
+    }
+
+    header {
+        height: auto; /* Define a altura do header como automática */
+        flex-direction: column; /* Organiza o conteúdo do header em uma coluna */
+        padding: 5%; /* Espaçamento interno de 5% em todos os lados do header */
+        align-items: center; /* Centraliza o conteúdo dentro do header */
+    } 
+
+    #logo {
+        width: 100%; /* Define a largura da logo para ocupar 100% da área disponível */
+        height: auto; /* Ajusta automaticamente a altura da logo */
+        display: flex;
+        justify-content: center; /* Alinha a logo horizontalmente no centro */
+        margin-bottom: 10px; /* Espaçamento inferior para separação */
+    }
+
+    #profissao {
+        font-size: 12px; /* Ajusta o tamanho da fonte */
+        text-align: center; /* Centraliza o texto */
+        margin-bottom: 10px; /* Espaçamento inferior para separação */
+    }
+
+    #btns_paginas {
+        width: 100%; /* Define a largura do contêiner de botões */
+        display: flex;
+        flex-direction: row; /* Alinha os botões em linha */
+        justify-content: center; /* Centraliza os botões horizontalmente */
+        align-items: center; /* Alinha os botões verticalmente no centro */
+        margin-top: 10px; /* Espaçamento superior para separar do texto */
+    }
+
+    .btn h1 {
+        display: none; /* Esconde o texto dos botões */
+    }
+
+    .btn i {
+        font-size: 20px; /* Define o tamanho do ícone */
+    }
+
+    .btn {
+        width: 50px; /* Ajusta a largura dos botões */
+        height: 50px; /* Ajusta a altura dos botões */
+        justify-content: center; /* Centraliza o conteúdo dos botões */
+        align-items: center; /* Alinha os botões verticalmente */
+        margin: 0 5px; /* Espaço entre os botões */
+    }
+
+    #icone_logo {
+        width: 20vw; /* Define a largura do ícone da logo */
+        height: 20vw; /* Define a altura do ícone da logo */
+    }
+}

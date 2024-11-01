@@ -29,7 +29,10 @@ section{
     font-size: 5vw;
     display: flex;
     align-items: center;
-    color:  #FC9D10;
+    color:  #fff;
+    margin: 0; /* Remove todas as margens padrão dos cabeçalhos */
+    /* Adicione um espaçamento personalizado, se necessário */
+
 
    
 }
@@ -43,6 +46,7 @@ section{
     display: flex;
     align-items: center;
     color:  white;
+    
 
 }
 
@@ -69,4 +73,52 @@ section{
     left: 17vw;
 
 
+}
+@media (max-width: 480px) {
+section{
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+}
+
+#img_prin{
+    width: 70%;
+    height: auto;
+
+}
+#nome h3, #sobrenome h2 {
+    font-size: 11vw; /* Tamanho da fonte dos cabeçalhos */
+    margin: 0; /* Remove margens para evitar espaços indesejados */
+}
+
+#nome {
+    display: flex; /* Define um contêiner flexível */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: flex-end; /* Alinha o conteúdo ao final do contêiner */
+    margin-bottom: 0; /* Remove o espaçamento inferior */
+    margin-top: -53px; /* Ajuste para mover o contêiner mais para cima */
+}
+
+#sobrenome {
+    display: flex; /* Define um contêiner flexível */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: flex-start; /* Alinha o conteúdo ao início do contêiner */
+    margin-top: -10px; /* Ajuste para mover o contêiner mais para cima */
+}
+
+#descricao {
+    font-size: 2vw; /* Tamanho da fonte da descrição */
+    margin: 0; /* Remove margens para evitar espaços indesejados */
+    margin-top: -10px; /* Ajuste para mover a descrição mais para cima */
+}
+
+
+
+#imagem{
+    width: 70%;
+    height: auto;
+    top: 30vh;
+    left: 6vh;
+   
+}
 }

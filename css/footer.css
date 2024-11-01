@@ -16,3 +16,13 @@ footer{
     margin-left: 1%; 
     background-color: rgb(32, 28, 28);
 }
+
+@media (max-width: 480px) {/* Aplica os estilos a todos os elementos dentro desse bloco somente em telas com largura máxima de 480px */
+    /* Aplica os estilos a todos os elementos dentro desse bloco somente em telas com largura máxima de 480px */
+    footer{
+        height: auto; /* Define a altura do header como automática, para que ele se ajuste ao conteúdo */
+        flex-direction: row; /* Organiza o conteúdo do header em uma coluna (um elemento embaixo do outro) */
+       align-items: center; /* Alinha o conteúdo verticalmente no centro */
+    } 
+
+}
