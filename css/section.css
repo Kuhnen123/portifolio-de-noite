@@ -107,7 +107,7 @@ section{
 }
 
 #descricao {
-    font-size: 2vw; /* Tamanho da fonte da descrição */
+    font-size: 3vw; /* Tamanho da fonte da descrição */
     margin: 0; /* Remove margens para evitar espaços indesejados */
     margin-top: -10px; /* Ajuste para mover a descrição mais para cima */
 }

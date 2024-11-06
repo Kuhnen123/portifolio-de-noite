@@ -9,21 +9,18 @@ header{
 
 }
 
-#logo{
-    width: 30%;
-    height: 80%;
+#logo {
+    width: 95vw; 
+    height: 15vh; 
 
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     padding: 0 5%;
-    
-
-  
-
-
 }
+
+
 #cabecario{
     width: 40%;
     height: 80%;
@@ -32,13 +29,14 @@ header{
 }
 
 #icone_logo{
-    width: 4vw;
-    height: 4vw;
+    width: 7vw;
+    height: 7vw;
     background-image: url(./../assets/img_principal2.png);
     background-size: contain;
     background-position: center;
     border-radius: 50%;
     margin-right: 3vw;
+    margin-top: 3.5vh;
 }
 
 #profissao{
@@ -51,6 +49,7 @@ header{
     align-items: center;
 
     color: white;
+    margin-top: 2.5vh;
 
 
 }
